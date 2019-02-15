@@ -24,8 +24,8 @@ def home():
 def getDetails(usrStr, queNum):
     d = {}
     print(usrStr, "------", queNum)
-    tw_df = pd.ExcelFile("./static/tw_Desc.csv")#.parse("Sheet1")
-    place_df = pd.ExcelFile("./static/place.csv")#.parse("Sheet1")
+    tw_df = pd.read_csv("./static/tw_Desc.csv")
+    place_df = pd.read_csv("./static/place.csv")
     colors = ['ALUMINUM', 'BEIGE', 'BLACK', 'BLUE', 'BROWN', 'BRONZE', 'CLARET', 'COPPER', 'CREAM', 'GOLD', 'GRAY', 'GREEN', 'MAROON', 'METALLIC', 'NAVY', 'ORANGE', 'PINK', 'PURPLE', 'RED', 'ROSE', 'RUST', 'SILVER', 'TAN', 'TURQUOISE', 'WHITE', 'YELLOW']
     if queNum == "first":
         r = "[A-Z]{2}[0-9]{1,2}(?:[A-Z])?(?:[A-Z]*)?[0-9]{4}" 
