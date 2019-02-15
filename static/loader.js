@@ -85,7 +85,7 @@
         owl: "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css",
         bootstrap: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
         owlTheme: "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css",
-        pmTheme: "http://130.61.105.167:5000/static/theme.css"
+        pmTheme: "https://development.jubi.ai/voiceFormFilling/static/theme.css"
     });
     loadJs({
         crypt: "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js",
