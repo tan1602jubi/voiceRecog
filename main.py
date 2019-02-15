@@ -128,7 +128,7 @@ def userSays():
     data = dict(request.form)
     res = "How can I help you..!"
     print(data)
-    if data["usrSays"][0] == "bike details":
+    if data["usrSays"] == "bike details":
         bikeQues += 1
         print(bikeQues,"PPP")
         print(list(bikeDetails.keys())[bikeQues])
