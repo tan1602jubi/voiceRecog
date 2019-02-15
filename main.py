@@ -28,7 +28,7 @@ def getDetails(usrStr, queNum):
     tw_df = pd.ExcelFile("./static/twDesc.xlsx").parse("Sheet1")
     place_df = pd.ExcelFile("./static/place.xlsx").parse("Sheet1")
     colors = ['ALUMINUM', 'BEIGE', 'BLACK', 'BLUE', 'BROWN', 'BRONZE', 'CLARET', 'COPPER', 'CREAM', 'GOLD', 'GRAY', 'GREEN', 'MAROON', 'METALLIC', 'NAVY', 'ORANGE', 'PINK', 'PURPLE', 'RED', 'ROSE', 'RUST', 'SILVER', 'TAN', 'TURQUOISE', 'WHITE', 'YELLOW']
-    if queNum == 1:
+    if queNum == "first":
         r = "[A-Z]{2}[0-9]{1,2}(?:[A-Z])?(?:[A-Z]*)?[0-9]{4}" 
         
         f = open("./static/two_wheel.json")
@@ -85,14 +85,14 @@ def getDetails(usrStr, queNum):
             d["Place of Registration"] = "---"
             print(er)    
 
-    if queNum == 2:
+    if queNum == "second":
         try:
             d["color"] = [i for i in colors if re.search(i, usrStr)][0]
             usrStr = usrStr.replace(d["color"], "")
             d["year of registration"] = re.search("[0-9]{4}", usrStr).group()
         except Exception as er:
             print(er)
-    if queNum == 3:
+    if queNum == "third":
         try:
             d["idv"] = re.search("[0-9]+", usrStr).group()
         except:
@@ -152,12 +152,50 @@ def userSays():
         print(bikeDetails)    
     return jsonify(res=res) 
 
-@app.route("/test", methods=['POST'])
-def tests():
+@app.route("/firstPost", methods=['POST'])
+def firstPost():
     print(request)
-    print(request.get_json())
+    model = request.get_json()
 
-    return jsonify(str(request.get_json()), 200)
+    details = getDetails(model["data"], bikeQues)
+    model["tags"]["details"] = {}
+    model["tags"]["details"] = getDetails(model["data"], model["stage"])
+    model["stage"] = "second"
+    return jsonify(str(model), 200)
+
+@app.route("/secondPost", methods=['POST'])
+def secondPost():
+    print(request)
+    model = request.get_json()
+
+    details = getDetails(model["data"], bikeQues)
+    model["tags"]["details"] = {}
+    model["tags"]["details"] = getDetails(model["data"], model["stage"])
+    model["stage"] = "third"
+    return jsonify(str(model), 200)
+
+@app.route("/thirdPost", methods=['POST'])
+def thirdPost():
+    print(request)
+    model = request.get_json()
+
+    details = getDetails(model["data"], bikeQues)
+    model["tags"]["details"] = {}
+    model["tags"]["details"] = getDetails(model["data"], model["stage"])
+    model["stage"] = "final"
+    return jsonify(str(model), 200)   
+
+
+# @app.route("/firstPre", methods=['POST'])
+# def firstPre():
+#     print(request)
+#     model = request.get_json()
+
+#     details = getDetails(model["data"], bikeQues)
+#     model["tags"]["details"] = {}
+#     model["tags"]["details"] = getDetails(model["data"], model["stage"])
+#     model["stage"] = "second"
+#     return jsonify(str(model), 200)
 
 if __name__ == '__main__':
 
