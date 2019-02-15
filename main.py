@@ -15,11 +15,18 @@ bikeDetails = {"Make Model Variant & Vehicle Registration Number & year of mfg":
                 "color, & date of registration": {},
                 "idv,electrical accessories,side car,cng/lpg,total idv": {},}   
 bikeQues = 0
+
+@app.route('/voiceRecog', methods=['GET', 'POST'])
+def home():
+    global bikeQues
+    bikeQues = -1
+    return render_template('index.html', name='index')
+
 @app.route('/', methods=['GET', 'POST'])
 def home():
     global bikeQues
     bikeQues = -1
-    return render_template('index2.html', name='index')
+    return render_template('index2.html', name='index2')
 
 def getDetails(usrStr, queNum):
     d = {}
