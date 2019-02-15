@@ -1,0 +1,1514 @@
+{
+  "EKO": {
+    "COSMIC": [
+      "I"
+    ]
+  },
+  "HONDA SCOOTER": {
+    "TWISTER": [
+      "DISC",
+      "KS",
+      "SS",
+      "DRUM"
+    ],
+    "CBUNICORN": [
+      "DAZZLER 5ID",
+      "DAZZLER 6ID",
+      "160 STD",
+      "160 2ID",
+      "160 3ID DISC",
+      "PREMIUM",
+      "DAZZLER",
+      "160 ID",
+      "DISC",
+      "CBS",
+      "STD"
+    ],
+    "AVIATOR": [
+      "DRUM 110 CC",
+      "ALLOY BSIV",
+      "DISC",
+      "DELUXE",
+      "DISC 110 CC",
+      "DRUM",
+      "STD"
+    ],
+    "UNICORN": [
+      "STD"
+    ],
+    "CBFSTUNNER": [
+      "SELF-DISC-ALLOY",
+      "KICK-DRUM-ALLOY",
+      "SELF-DRUM-ALLOY"
+    ],
+    "DIO": [
+      "SCV110FBC",
+      "KICK-DRUM",
+      "SCV 110",
+      "STD",
+      "DELUXE",
+      "DLX"
+    ],
+    "DREAMYUGA": [
+      "SELF DRUM ALLOY",
+      "KICK DRUM ALLOY",
+      "SELF DISC",
+      "KICK DRUM SPOKE"
+    ],
+    "NEWDIO": [
+      "DLX 102CC"
+    ],
+    "CB": [
+      "UNICORN",
+      "SHINE"
+    ],
+    "ACTIVA": [
+      "DRUM 125",
+      "I",
+      "110 CC",
+      "DLX 110 CC",
+      "HET",
+      "4G",
+      "3G",
+      "ALLOY DRUM",
+      "125 DRUM ALLOY BSIV",
+      "DIO",
+      "125 DLX",
+      "DISC 125",
+      "SCV 125E",
+      "5G",
+      "125 STD",
+      "DLX"
+    ],
+    "ETERNO": [
+      "STD",
+      "ACTIVA",
+      "DELUXE"
+    ],
+    "CBR250R": [
+      "REP",
+      "STD TRICOLOR",
+      "ABS TRICOLOR",
+      "ABS",
+      "STD"
+    ],
+    "CBR150": [
+      "STD",
+      "DLX"
+    ],
+    "STUNNER": [
+      "CBF KS",
+      "SELF DISC ALLOY",
+      "CBF DBES",
+      "CBF ES",
+      "CBF Fi",
+      "STD"
+    ],
+    "SHINE": [
+      "KICK-DISC",
+      "CB DX",
+      "CB SP DR",
+      "SELF-DISC",
+      "SP DISC ES",
+      "KICK-DRUM",
+      "SELF-DRUM",
+      "CB SP DISC",
+      "SELF START",
+      "CB SELF DISC",
+      "CB 125 3ID",
+      "ETERNO",
+      "CB KICK DRUM",
+      "STD",
+      "CB DRUM SELF BSIV",
+      "CB SELF DRUM",
+      "SP CBF125",
+      "CB CBS",
+      "SP DRUM BSIV",
+      "CB 125 ID",
+      "CB 125 2ID",
+      "CB SP CBS",
+      "CB 125 SP CBF",
+      "CB 125 SP",
+      "SP DR ES"
+    ]
+  },
+  "KINETIC": {
+    "ZINGKINE": [
+      80,
+      "STD"
+    ],
+    "4S": [
+      "STD"
+    ],
+    "BLAZE": [
+      "STD",
+      "DISK"
+    ],
+    "NOVA": [
+      "STD"
+    ],
+    "FLYTE": [
+      "STD"
+    ]
+  },
+  "DUCATI": {
+    "DIAVEL": [
+      "CARBON RED"
+    ]
+  },
+  "TVS": {
+    "JIVE": [
+      "110 ES",
+      "STD",
+      "MAG ES"
+    ],
+    "JUPITER": [
+      "DISC M.EDITION",
+      "ZX",
+      "MILLION R",
+      "VALCANO",
+      "MATT BEIGE",
+      "CLASSIC EDITION",
+      "BSIV",
+      "ZX BSIV DISC",
+      "LE",
+      "STALLION",
+      "STD"
+    ],
+    "FLAME": [
+      "SR 125 ES DISC",
+      "ES 125 CC DISC",
+      "KS 125 CC DRUM",
+      "STD",
+      "ES 125 CC DRUM",
+      "DS"
+    ],
+    "SPORT": [
+      "KS",
+      "CVTI STD",
+      "STD 100 C",
+      "ES",
+      "CVTI ES",
+      "CVTI",
+      "ES MAG"
+    ],
+    "NTORQ": [
+      "125 DISC"
+    ],
+    "VICTOR": [
+      "GLX",
+      "ES",
+      "SELF",
+      "DISC",
+      "GX",
+      "DRUM"
+    ],
+    "SAMURAI": [
+      "STD"
+    ],
+    "PHOENIX": [
+      "125 DRUM BRAKE",
+      125,
+      "125 DISC BRAKE"
+    ],
+    "WEGO": [
+      "V3",
+      "V4",
+      "V3 DUAL",
+      "DISC",
+      "STD",
+      "REFRESH",
+      "BASIC",
+      "DRUM"
+    ],
+    "STARCITY": [
+      "PLUS GOLD SPL ED",
+      "MAG REF",
+      "SPOKE REF ES",
+      "SPORT",
+      "ES",
+      "SPOKE",
+      "PLUSE ES MAG",
+      "PLUSE 110 KS",
+      "MAG",
+      "SPOKE ES",
+      "MAG REF ES",
+      "ALLOY",
+      "PLUSE ES",
+      "SPOKE REF",
+      "STAR",
+      "PLUS",
+      "STD",
+      "MAG ES",
+      "PLUS BSIV"
+    ],
+    "XLSUPER": [
+      "STD",
+      "HD"
+    ],
+    "STREAK": [
+      "AP RED",
+      "BASE",
+      "REFRESH",
+      "FASHION"
+    ],
+    "MAX": [
+      "4R",
+      100
+    ],
+    "STAR": [
+      "SPORT CVTi",
+      "SPORT ES",
+      "SPORT",
+      "VIB GEARLESS",
+      "XPRESS KS",
+      "4 KS GEARED",
+      "4 ES GEARED",
+      "VIB DB GEARLESS",
+      "XPRESS ES",
+      "STD",
+      "ES GEARLESS"
+    ],
+    "SUZUKI": [
+      "STD"
+    ],
+    "CENTRA": [
+      "STD"
+    ],
+    "APACHE": [
+      "RTR 160 4V",
+      "RTR 180 ABS",
+      "RTR 160 R.D",
+      "RTR 180 CC",
+      "RTR 160 S.D",
+      "RTR 160 CC",
+      "160 CC",
+      "RTR 160 CC FI",
+      "200 4V PIRELLI",
+      "RTR 200",
+      "RTR Efi",
+      150,
+      "RTR 180 R.D",
+      "RTR 160 CC R.R YELLOW",
+      "RTR 200 ABS",
+      "RTR 160 CC YELLOW",
+      "180 CC"
+    ],
+    "SCOOTY": [
+      "PEP PLUS REFRESH",
+      "TEENZ",
+      "ZEST",
+      "PEP PLUS FASHION",
+      "PEP PLUS",
+      "PEP PLUS ME",
+      "ES",
+      "PEP PLUS WIMBELDON",
+      "ZEST MATTE EDI",
+      "PEP PLUS BABLICIOUS",
+      "ZEST LE",
+      "PEP"
+    ],
+    "XL": [
+      "100 BSIV",
+      100,
+      "HD"
+    ],
+    "FIERO": [
+      "FX DISC",
+      "F2 DRUM",
+      "F2 DISC",
+      "FX DRUM"
+    ]
+  },
+  "SUZUKI": {
+    "GSX": [
+      "RLE",
+      150
+    ],
+    "HEAT": [
+      "ALLOY",
+      "SPOKE"
+    ],
+    "ACCESS": [
+      "125 Z DISC",
+      "125 Z DRUM",
+      "125 Z",
+      "SE",
+      125
+    ],
+    "SWISH": [
+      125
+    ],
+    "SLINGSHOT": [
+      "SCD",
+      "EU",
+      "SCU",
+      "DU",
+      "SEU"
+    ],
+    "INTRUDER": [
+      "GL 150",
+      "STANDARD",
+      "GL 150 ABS"
+    ],
+    "HAYATE": [
+      "110 CC",
+      "SS",
+      "KS",
+      "EP"
+    ],
+    "INAZUMA": [
+      250
+    ],
+    "GS": [
+      "150 R"
+    ],
+    "GIXXER": [
+      "DUAL TONE EDTN",
+      "SFZ",
+      "150 SPL EDT",
+      "155 SINGLE DISC",
+      "150 SF",
+      "SF Fi",
+      150,
+      "SF"
+    ],
+    "ZEUS": [
+      "GT 125XDU",
+      "GT 125XCD",
+      "GT 125XEU",
+      "GT 125U"
+    ],
+    "LETS": [
+      113
+    ]
+  },
+  "BAJAJ": {
+    "KRISTAL": [
+      "DTSI",
+      "STD",
+      "GF 01",
+      "ES"
+    ],
+    "PULSAR": [
+      "220 S",
+      "160 NS",
+      "NS 200 ABS",
+      "150 UG 4.5",
+      "220 S- NEW DECALS",
+      "180 NEW DECALS",
+      "180 CC UG",
+      "200 AS",
+      "150 AS",
+      "135 CC",
+      "AS 150",
+      "220 CC",
+      "150 CC UG",
+      "200NS",
+      "135 LS",
+      "RS 200 ABS",
+      "DTSI KSUGII 150",
+      "200 CC",
+      "DTSI ESUGIII 150",
+      "220 SF",
+      "DTSI ESUGIII 180",
+      "180 CC",
+      "150 CC ES",
+      "150 CC",
+      "RS 200 NON ABS",
+      "RS 200",
+      "220 SF NEW DECALS",
+      "200 4V R DISC",
+      "AS 200"
+    ],
+    "AVENGER": [
+      "200 CC",
+      "CRUISE",
+      "STREET 150",
+      "220 CC",
+      "STREET 220",
+      "180CC",
+      "STREET 180",
+      "STD"
+    ],
+    "WIND": [
+      125
+    ],
+    "CALIBER": [
+      "STD",
+      110
+    ],
+    "V": [
+      "V15 BSIII",
+      "V12",
+      "V15"
+    ],
+    "DISCOVER": [
+      "DTSI ES 125",
+      "5G 100CC",
+      "100 CC KS",
+      "100-KS SPOKE WH",
+      "100 CC",
+      "H DISC 150",
+      "4G 100 CC",
+      "100 M DRUM",
+      "100 R DR ES",
+      "125 T",
+      "150 S DISC",
+      "125 ST",
+      "ES DSK  BLACK 135",
+      "100 T",
+      "125 ES DISC",
+      "135 ES",
+      "150 ES DISC",
+      "100CC ES",
+      "135 KS",
+      180,
+      "DRUM 135 CC",
+      "125 M DRUM",
+      "125 T DISC",
+      "125 TX",
+      "DTSI ES BLACK 125",
+      "125 DRUM KS",
+      "150 S DRUM",
+      "125 TXT",
+      "DISC 135 CC",
+      "DRB ES 135",
+      "125 T DRUM",
+      "100 T DRUM",
+      "125 CC",
+      "125 KS DRUM",
+      "100 M",
+      "100CC KS",
+      "125 M DISC",
+      "DRB KS 135",
+      "KS",
+      "150 F DRUM",
+      "100 ES SPOKE WH",
+      "150 CC",
+      "150 F DISC",
+      110,
+      "125 DISC BRAKE.",
+      "150 F",
+      "100 M DISC",
+      "100 T DISC",
+      "125 ES DRUM",
+      "DTSI KS 125"
+    ],
+    "M 80": [
+      "STD"
+    ],
+    "SPIRIT": [
+      "STD"
+    ],
+    "XCD": [
+      "125 CC ES",
+      "DISC 135 CC",
+      "XCD-KS W/O SG/LG",
+      "DRUM 135 CC",
+      "XCD-ES W/O SG/LG"
+    ],
+    "DOMINAR 400": [
+      "STANDARD",
+      "ABS"
+    ],
+    "PLATINA": [
+      "100 CC",
+      "125 CC ES",
+      "ALLOY WHEELS",
+      "100 KS",
+      "125 CC",
+      "SPOKE",
+      "STD",
+      "100 CC ES"
+    ],
+    "BOXER": [
+      "BM 150",
+      "AT",
+      "CT",
+      "150 CC"
+    ],
+    "CT": [
+      100,
+      "100 AW",
+      "100 ES ALLOY",
+      "100 SW",
+      "100 B"
+    ],
+    "WAVE": [
+      "STD"
+    ]
+  },
+  "KAWASAKI": {
+    "NINJA": [
+      650,
+      300,
+      "250R"
+    ]
+  },
+  "TRIUMPH": {
+    "BONNEVILLE": [
+      "A3",
+      "T100"
+    ],
+    "DAYTONA": [
+      "R ABS"
+    ],
+    "ROCKET": [
+      "ROADSTER ABS A2 III",
+      "X LIMITED EDITION"
+    ],
+    "TIGER": [
+      "800 XCx",
+      "EXPLORER XC ABS SPOKE",
+      "EXPLORER ABS 1A",
+      "800 XR",
+      "800 XC",
+      "800 XRx",
+      "800 XCa"
+    ],
+    "THUDERBIRD": [
+      "LT",
+      "STORM",
+      "LT ABS A1"
+    ],
+    "STREET TRIPLE": [
+      "ABS A2"
+    ],
+    "THURXTON": [
+      "A2"
+    ],
+    "SPEED TRIPLE": [
+      "ABS A1"
+    ]
+  },
+  "HONDA MOTORS": {
+    "TWISTER": [
+      "DISC",
+      "KS",
+      "SS",
+      "DRUM"
+    ],
+    "GRAZIA": [
+      "STANDARD",
+      "STD ALLOY",
+      "DLX"
+    ],
+    "DREAM NEO": [
+      "SELF DRUM ALLOY",
+      "SPOKE DRUM ALLOY",
+      "KICK DRUM ALLOY",
+      "KICK DRUM SPOKE"
+    ],
+    "CBTWISTER": [
+      "SELF DISC ALLOY",
+      "SELF DRUM ALLOY",
+      "SELF DISC",
+      "SELF DRUM",
+      "KICK DRUM ALLOY"
+    ],
+    "CBUNICORN": [
+      "DAZZLER 5ID",
+      "DAZZLER 6ID",
+      "160 STD",
+      "160 2ID",
+      "160 3ID DISC",
+      "PREMIUM",
+      "DAZZLER",
+      "160 ID",
+      "DISC",
+      "CBS",
+      "STD"
+    ],
+    "CBX250": [
+      "TWISTER"
+    ],
+    "CLICK": [
+      "125 I",
+      "150 I"
+    ],
+    "DASH": [
+      "STD"
+    ],
+    "NAVI": [
+      "STD",
+      "SELF"
+    ],
+    "DREAMYUGA": [
+      "SELF DRUM ALLOY",
+      "KICK DRUM ALLOY",
+      "SELF DISC",
+      "KICK DRUM SPOKE"
+    ],
+    "DIO": [
+      "SCV110FBC",
+      "KICK-DRUM",
+      "SCV 110",
+      "STD",
+      "DELUXE",
+      "DLX"
+    ],
+    "CLIQ": [
+      "BSIV",
+      110
+    ],
+    "ETERNO": [
+      "STD",
+      "ACTIVA",
+      "DELUXE"
+    ],
+    "CBR250R": [
+      "REP",
+      "STD TRICOLOR",
+      "ABS TRICOLOR",
+      "ABS",
+      "STD"
+    ],
+    "LIVO": [
+      "110 CBF G ID",
+      "DRUM SELF BSIV",
+      "110 CBF G",
+      "110 DRUM SELF",
+      "110 DISC SELF",
+      "DLX"
+    ],
+    "CBR150": [
+      "STD",
+      "DLX"
+    ],
+    "STUNNER": [
+      "CBF KS",
+      "SELF DISC ALLOY",
+      "CBF DBES",
+      "CBF ES",
+      "CBF Fi",
+      "STD"
+    ],
+    "CD": [
+      "110 DX",
+      100,
+      "100 SS",
+      "110 DREAM"
+    ],
+    "X BLADE": [
+      "STD"
+    ],
+    "AVIATOR": [
+      "DRUM 110 CC",
+      "ALLOY BSIV",
+      "DISC",
+      "DELUXE",
+      "DISC 110 CC",
+      "DRUM",
+      "STD"
+    ],
+    "UNICORN": [
+      "STD"
+    ],
+    "ACTIVA": [
+      "DRUM 125",
+      "I",
+      "110 CC",
+      "DLX 110 CC",
+      "HET",
+      "4G",
+      "3G",
+      "ALLOY DRUM",
+      "125 DRUM ALLOY BSIV",
+      "DIO",
+      "125 DLX",
+      "DISC 125",
+      "SCV 125E",
+      "5G",
+      "125 STD",
+      "DLX"
+    ],
+    "SHINE": [
+      "KICK-DISC",
+      "CB DX",
+      "CB SP DR",
+      "SELF-DISC",
+      "SP DISC ES",
+      "KICK-DRUM",
+      "SELF-DRUM",
+      "CB SP DISC",
+      "SELF START",
+      "CB SELF DISC",
+      "CB 125 3ID",
+      "ETERNO",
+      "CB KICK DRUM",
+      "STD",
+      "CB DRUM SELF BSIV",
+      "CB SELF DRUM",
+      "SP CBF125",
+      "CB CBS",
+      "SP DRUM BSIV",
+      "CB 125 ID",
+      "CB 125 2ID",
+      "CB SP CBS",
+      "CB 125 SP CBF",
+      "CB 125 SP",
+      "SP DR ES"
+    ],
+    "CB HORNET": [
+      "160 CBS",
+      "160R"
+    ],
+    "CB TRIGGER": [
+      "STD",
+      "CBS",
+      "DLX"
+    ],
+    "CBFSTUNNER": [
+      "SELF-DISC-ALLOY",
+      "KICK-DRUM-ALLOY",
+      "SELF-DRUM-ALLOY"
+    ],
+    "NEWDIO": [
+      "DLX 102CC"
+    ]
+  },
+  "YAMAHA": {
+    "GLADIATOR": [
+      "GRAFFITI",
+      "STD",
+      "DX",
+      "SS BLUE"
+    ],
+    "ALPHA": [
+      "STD",
+      "CYGNUS BSIII",
+      "NEW",
+      "SCPL"
+    ],
+    "G5": [
+      "E/S"
+    ],
+    "YZF": [
+      "R3"
+    ],
+    "FZ": [
+      "V2",
+      "RG",
+      "FI V2.0",
+      "S",
+      "S V2",
+      16,
+      "S RG",
+      "FI",
+      25,
+      "S FI"
+    ],
+    "SZ": [
+      "RR",
+      "X",
+      "S",
+      "R",
+      "RR V2",
+      16,
+      "STD"
+    ],
+    "FAZER": [
+      "V2",
+      "RG",
+      "FI V2.0",
+      "FI",
+      "LE",
+      "STD",
+      25,
+      "DLX"
+    ],
+    "SALUTO": [
+      "STD",
+      "RX",
+      "DISC"
+    ],
+    "RAY": [
+      "ZR DRUM",
+      "CYGNUS ZR",
+      "ZR DISC",
+      "STD",
+      "Z"
+    ],
+    "FASCINO": [
+      "STD"
+    ],
+    "YBR(125)": [
+      125
+    ],
+    "CRUX": [
+      "STD"
+    ],
+    "YBR": [
+      110
+    ],
+    "R15": [
+      "S",
+      "V2",
+      "V3",
+      "STD"
+    ],
+    "YZF-R15": [
+      "STD"
+    ],
+    "ALBA": [
+      "E/S",
+      "A/W",
+      "S/W",
+      "Spoke"
+    ],
+    "LIBERO": [
+      "G5 S/W",
+      "G5 A/W"
+    ],
+    "SS": [
+      125
+    ]
+  },
+  "GLOBAL": {
+    "ROCK": [
+      100
+    ],
+    "EXPRESSION": [
+      "PLUS 125"
+    ]
+  },
+  "VIBGYOR": {
+    "SHARK": [
+      "VV142"
+    ],
+    "GALLOP": [
+      97
+    ],
+    "HUNTER": [
+      "VV124",
+      "W125"
+    ]
+  },
+  "HAYABUSA": {
+    "GSX": [
+      "RLE",
+      150
+    ]
+  },
+  "AMPERE": {
+    "E-SCOOTER": [
+      "V48",
+      "MITRA 250",
+      "V60"
+    ]
+  },
+  "ROYAL ENFIELD": {
+    "THUNDERBIRD": [
+      "SELF",
+      "KICKSTART",
+      "NT51",
+      "350 UCE",
+      500,
+      "DISC ES 5S",
+      "CLS 500",
+      "TWINSPARK",
+      "500 EFI",
+      "500 EFI UCE",
+      350
+    ],
+    "BULLET ELECTRA": [
+      550,
+      "350 UCE",
+      "350 UCE ES",
+      350,
+      "STD"
+    ],
+    "CONTINENTAL": [
+      "GT",
+      "GT 535 EFI UCE"
+    ],
+    "STANDARD": [
+      500,
+      "UCE",
+      "350 CC"
+    ],
+    "BULLET": [
+      "CONTINENTAL GT",
+      "UCE STD",
+      "500 UCE",
+      "350 UCE",
+      500,
+      "MACHISMO 500",
+      "MACHISMO 350",
+      350
+    ],
+    "HIMALAYAN": [
+      "STD",
+      "GRANITE 410"
+    ],
+    "CLASSIC": [
+      "DESERT STORM",
+      "CHROME",
+      "350 CC",
+      "500 UCE",
+      "DOM",
+      "350 UCE",
+      500,
+      "500 CC",
+      "500 EFI",
+      "500 EFI UCE",
+      350
+    ],
+    "SQUADRON BLUE": [
+      "STD"
+    ],
+    "ELECTRA": [
+      "5S FLUCE",
+      "UCE ES DISC",
+      "350 CC"
+    ]
+  },
+  "KTM": {
+    "RC": [
+      200,
+      390
+    ],
+    "DUKE": [
+      200,
+      250,
+      390
+    ]
+  },
+  "HARLEY DAVIDSON": {
+    "FXDF FAT BOB": [
+      "DYNA"
+    ],
+    "VRSCDX NIGHTROD SPL.": [
+      "V-ROD"
+    ],
+    "FLHR ROAD KING": [
+      "TOURING"
+    ],
+    "XL883R ROADSTER": [
+      "SPORTSTER"
+    ],
+    "FXDC DYNA SUPERGLIDE CUSTOM": [
+      "DYNA"
+    ],
+    "FLSTC HERITAGE SOFTAIL CLASSIC": [
+      "SOFTAIL"
+    ],
+    "XL 1200N NIGHTSTER": [
+      "SPORTSTER"
+    ],
+    "FLSTF FAT BOY SPECIAL": [
+      "SOFTAIL"
+    ],
+    "LFHX STREET GLIDE": [
+      "TOURING"
+    ],
+    "FXDB STREET BOB": [
+      "DYNA"
+    ],
+    "XL 1200X FORTY EIGHT": [
+      "SPORTSTER"
+    ],
+    "883 SUPERLOW": [
+      "SPORTSTER"
+    ],
+    "IRON 883": [
+      "SPORTSTER"
+    ],
+    "STREET": [
+      750
+    ],
+    "FLHT CUSE ULTRA CLASSIC ELECTRA GLIDE": [
+      "CVO"
+    ],
+    "FLSTF FAT BOY": [
+      "SOFTAIL"
+    ],
+    "XR 1200X": [
+      "SPORTSTER"
+    ]
+  },
+  "HERO HONDA": {
+    "SPLENDORPRO": [
+      "KICK CAST (N)",
+      "SELF SPOK (N)",
+      "KICK SPO (N)",
+      "KICK PRO (N)"
+    ],
+    "HUNK": [
+      "DRUM",
+      "DISC",
+      "DSS",
+      "DSS( RED WHEELS)",
+      "STD"
+    ],
+    "CBX": [
+      "XTREM"
+    ],
+    "CDDLX": [
+      "DRUM KICK CAST",
+      "SELF",
+      "SELF SPOKE",
+      "MACHWHEEL",
+      "SPOKE",
+      "DRUM KICK SPOKE"
+    ],
+    "PASSIONPLUS": [
+      "CAST",
+      "SPOKE",
+      "STD",
+      "NEW",
+      "DRUM"
+    ],
+    "PASSIONPRO": [
+      "KICK",
+      "SELF",
+      "LIMITED EDITION",
+      "DRUM SELF CAST",
+      "TR",
+      "SPOKE",
+      "SELF CAST"
+    ],
+    "JOY": [
+      "STD"
+    ],
+    "ACHIEVER": [
+      "(DSC SELF) VISOR",
+      "(DRM)",
+      "DISC SELF",
+      "(DSC) VISOR",
+      "(DRM) VISOR",
+      "STD",
+      "(DRM SELF) VISOR"
+    ],
+    "SPLENDORNXG": [
+      "CAST",
+      "SELF",
+      "KICK"
+    ],
+    "CDDAWN": [
+      "STD",
+      "STD."
+    ],
+    "SPLENDOR": [
+      "PLUS BSIV DRS CAST",
+      "NXG SELF CAST",
+      "NXG KICK SPOKE",
+      "PLUS CAST",
+      "PRO SELF CAST",
+      "PRO KICK SPOKE",
+      "PLUS",
+      "PRO CLASSIC",
+      "SP EDITION",
+      "PRO",
+      "I SMART DSC",
+      "PRO KICK ALLOY",
+      "STD",
+      "PLUS SPOKE",
+      "PRO SELF SPOKE",
+      "I SMART",
+      "PLUS ALLOY",
+      "PLUS CAST SS",
+      "CAST",
+      "I3S BSIV DRUM",
+      "NXG",
+      "PLUS i3S BSIV IRS",
+      "I SMART 110",
+      "NXG KICK ALLOY",
+      "NXG SELF ALLOY",
+      "SPLENDOR + DRUM",
+      "NXG SELF SPOKE",
+      "PRO SELF ALLOY"
+    ],
+    "PASSION": [
+      "X-Pro DSS",
+      "PRO KS",
+      "X PRO DRUM KICK SPOKE",
+      "PRO ES DISC BRAKE",
+      "PRO ES DRUM BRAKE",
+      "PRO i3s SELF DRUM SPOKE",
+      "PRO DRS",
+      "PRO",
+      "X PRO DRUM SELF SPOKE",
+      "X PRO DRUM KICK CAST",
+      "PRO i3s SELF DISC ALLOY",
+      "PRO i3s SELF DRUM ALLOY",
+      "X PRO DRUM DISC SELF",
+      "PRO TR",
+      "X PRO DRUM SELF CAST",
+      "PRO ES",
+      "X-Pro DRS",
+      "STD"
+    ],
+    "PLEASURE": [
+      "SELF START",
+      "NEW",
+      "BLACK",
+      "STD"
+    ],
+    "PASSIONPLUSPRO": [
+      "CAST SELF",
+      "SPOKE SELF"
+    ],
+    "CD": [
+      "110 DX",
+      100,
+      "100 SS",
+      "110 DREAM"
+    ],
+    "AMBITION": [
+      "STD"
+    ],
+    "SPLENDORPLUS": [
+      "MACHWHEEL",
+      "SPOKE"
+    ],
+    "DAWN": [
+      "CD DLX",
+      "CD DAWN"
+    ],
+    "SUPER SPLENDOR": [
+      "STD",
+      "SELF"
+    ],
+    "CBM": [
+      "DISC SELF(RED WHEELS)"
+    ],
+    "GLAMOUR": [
+      "FI STD",
+      "DRUM SELF",
+      "DRS",
+      "DISK SELF CAST",
+      "CCR",
+      "ALLOY DRUM",
+      "DISC SELF",
+      "FI F1 (DRM)",
+      "DRUM SELF CAST",
+      "DRUM KICK OLD",
+      "STD",
+      "DSS",
+      "ALLOY DISC",
+      "FI F1 (DSC SELF)"
+    ],
+    "KARIZMA": [
+      "STD",
+      "REDWHEEL",
+      "ZMR",
+      "BLACKWHEEL"
+    ],
+    "CBZ": [
+      "STD",
+      "XTREME DSS",
+      "XTREME",
+      "XTREME DDS"
+    ]
+  },
+  "HERO MOTOR CORP": {
+    "PASSION": [
+      "X-Pro DSS",
+      "PRO KS",
+      "X PRO DRUM KICK SPOKE",
+      "PRO ES DISC BRAKE",
+      "PRO ES DRUM BRAKE",
+      "PRO i3s SELF DRUM SPOKE",
+      "PRO DRS",
+      "PRO",
+      "X PRO DRUM SELF SPOKE",
+      "X PRO DRUM KICK CAST",
+      "PRO i3s SELF DISC ALLOY",
+      "PRO i3s SELF DRUM ALLOY",
+      "X PRO DRUM DISC SELF",
+      "PRO TR",
+      "X PRO DRUM SELF CAST",
+      "PRO ES",
+      "X-Pro DRS",
+      "STD"
+    ],
+    "PLEASURE": [
+      "SELF START",
+      "NEW",
+      "BLACK",
+      "STD"
+    ],
+    "HUNK": [
+      "DRUM",
+      "DISC",
+      "DSS",
+      "DSS( RED WHEELS)",
+      "STD"
+    ],
+    "IGNITOR": [
+      "DSS",
+      "125 CC",
+      "DRS"
+    ],
+    "CDDAWN": [
+      "STD",
+      "STD."
+    ],
+    "CDDELUXE": [
+      "CAST",
+      "STD",
+      "CAST SELF",
+      "SPOKE"
+    ],
+    "ACHIVER": [
+      "STD",
+      "150 DS"
+    ],
+    "XTREME": [
+      "Disk Self",
+      "SPORTS",
+      "Rear Disk",
+      "REAR DRUM",
+      "DDS CCR"
+    ],
+    "HF DAWN": [
+      "KS"
+    ],
+    "KARIZAMA": [
+      "R",
+      "STD",
+      "ZMR"
+    ],
+    "GLAMOUR": [
+      "FI STD",
+      "DRUM SELF",
+      "DRS",
+      "DISK SELF CAST",
+      "CCR",
+      "ALLOY DRUM",
+      "DISC SELF",
+      "FI F1 (DRM)",
+      "DRUM SELF CAST",
+      "DRUM KICK OLD",
+      "STD",
+      "DSS",
+      "ALLOY DISC",
+      "FI F1 (DSC SELF)"
+    ],
+    "MAESTRO": [
+      "STD",
+      "EDGE ZX DRS",
+      "EDGE LX DRS",
+      "EDGE VX DRS"
+    ],
+    "IMPULSE": [
+      "STD"
+    ],
+    "HF DLX": [
+      "BSIV DRS CAST",
+      "SPOKE SELF START",
+      "CAST SELF",
+      "ALLOY KICK",
+      "ECO",
+      "SPOKE KICK START",
+      "DRS CCR",
+      "DRUM SELF SPOKE",
+      "ALLOY SELF START",
+      "i3s SELF START",
+      "ALLOY SELF",
+      "ALLOY KICK START",
+      "SPOKE KICK",
+      "SPOKE SELF"
+    ],
+    "PASSIONPRO": [
+      "KICK",
+      "SELF",
+      "LIMITED EDITION",
+      "DRUM SELF CAST",
+      "TR",
+      "SPOKE",
+      "SELF CAST"
+    ],
+    "SPLENDOR": [
+      "PLUS BSIV DRS CAST",
+      "NXG SELF CAST",
+      "NXG KICK SPOKE",
+      "PLUS CAST",
+      "PRO SELF CAST",
+      "PRO KICK SPOKE",
+      "PLUS",
+      "PRO CLASSIC",
+      "SP EDITION",
+      "PRO",
+      "I SMART DSC",
+      "PRO KICK ALLOY",
+      "STD",
+      "PLUS SPOKE",
+      "PRO SELF SPOKE",
+      "I SMART",
+      "PLUS ALLOY",
+      "PLUS CAST SS",
+      "CAST",
+      "I3S BSIV DRUM",
+      "NXG",
+      "PLUS i3S BSIV IRS",
+      "I SMART 110",
+      "NXG KICK ALLOY",
+      "NXG SELF ALLOY",
+      "SPLENDOR + DRUM",
+      "NXG SELF SPOKE",
+      "PRO SELF ALLOY"
+    ],
+    "CBZ": [
+      "STD",
+      "XTREME DSS",
+      "XTREME",
+      "XTREME DDS"
+    ],
+    "SUPERSPLENDER": [
+      "STD",
+      "ALLOY SELF",
+      "SPOKE SELF"
+    ],
+    "DUET": [
+      "VX",
+      "LX",
+      "VX DRS BSIV"
+    ]
+  },
+  "MAHINDRA": {
+    "DURO": [
+      "STD",
+      "DZ 125"
+    ],
+    "STALLIO": [
+      "V1",
+      "V2"
+    ],
+    "GUSTO": [
+      "HX",
+      "VX",
+      "VX 125",
+      "DX",
+      "DX 125"
+    ],
+    "RODEO": [
+      "BASE",
+      "STD",
+      "RZ",
+      "UZO"
+    ],
+    "MOJO": [
+      "STD",
+      "ABS",
+      300
+    ],
+    "PANTERO": [
+      "V1",
+      "V2",
+      "V3",
+      "T1",
+      "V4",
+      "T3",
+      "T2",
+      "T4"
+    ],
+    "KINE": [
+      "STD"
+    ],
+    "CENTURO": [
+      "O1",
+      110,
+      "N1",
+      "NXT",
+      "ROCKSTAR",
+      "DISC",
+      "XT",
+      "DB",
+      "N1 DISC",
+      "O3"
+    ],
+    "FLYTE": [
+      "STD"
+    ]
+  },
+  "UM BIKES": {
+    "RENEGADE CLASSIC": [
+      "STANDARD"
+    ],
+    "SPORT S": [
+      "STANDARD"
+    ],
+    "RENEGADE COMMANDO": [
+      "STANDARD"
+    ]
+  },
+  "PIAGGIO": {
+    "VESPA": [
+      "VXL 150",
+      "SXL",
+      "VX SPL EDTN",
+      "VX 125",
+      "S",
+      "SXL 150",
+      "VX ELEGANTE",
+      "ELEGANTE 150",
+      125,
+      "VXL",
+      "VXL ELEGANTE",
+      "LX 125"
+    ],
+    "APRILIA": [
+      "SR 150",
+      "SR 150 RACE EDTN",
+      "SR 125"
+    ]
+  },
+  "LML": {
+    "SELECT": [
+      "4 ES"
+    ],
+    "SELECT II": [
+      "2S SELF",
+      "2S KICK"
+    ],
+    "FREEDOM": [
+      "PRIMA 110",
+      "LS",
+      "PRIMA",
+      "DX"
+    ],
+    "SELECT 4": [
+      "2S SELF",
+      "2S KICK"
+    ],
+    "NV": [
+      "4S SELF",
+      "4S KICK",
+      "2S SELF",
+      "LS 4S",
+      "LS 2S",
+      "2S KICK"
+    ],
+    "STAR EURO": [
+      "200 VIB",
+      "150 ES",
+      "150 GEARED",
+      "200 ES",
+      "200 VIB DB",
+      "200 SELF",
+      "200 KS"
+    ],
+    "STAR": [
+      "SPORT CVTi",
+      "SPORT ES",
+      "SPORT",
+      "VIB GEARLESS",
+      "XPRESS KS",
+      "4 KS GEARED",
+      "4 ES GEARED",
+      "VIB DB GEARLESS",
+      "XPRESS ES",
+      "STD",
+      "ES GEARLESS"
+    ],
+    "NVSPL": [
+      "4S NEW GEN STD",
+      "2S NV SPL",
+      "4S NEW GEN DLX",
+      "2S NV SPL E.S."
+    ]
+  }
+}
