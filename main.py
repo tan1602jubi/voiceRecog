@@ -19,7 +19,7 @@ bikeQues = 0
 def home():
     global bikeQues
     bikeQues = -1
-    return render_template('index.html', name='index')
+    return render_template('index2.html', name='index')
 
 def getDetails(usrStr, queNum):
     d = {}
