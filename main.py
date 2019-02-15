@@ -11,9 +11,10 @@ import re
 
 app = Flask(__name__)
 
-bikeDetails = {"Make Model Variant & Vehicle Registration Number & year of mfg": {},
-                "color, & date of registration": {},
-                "idv,electrical accessories,side car,cng/lpg,total idv": {},}   
+bikeDetails = {"Please help me with the Make,Model and Variant of your bike, Your bike registration number and year of manufacture. (You can say something like Bajaj Pulsar 180cc MH03CQ9771 2016)": {},
+                "Next I would need the color of the two wheeler and year of registration (You can say something like Black 2017)": {},
+                "We are almost done, I would like to know if there are any electrical accessories, side car, LPG/CNG fitted in your two wheeler.Kindly only spell out those which are present and if none of them are relevant just say none. (Eg: side car and lpg/ng or None)": {},
+                "Lastly I would want to know the base IDV and Total IDV(You can say something like 45,000 and 53,200":{}}   
 
 bikeQues = 0
 
@@ -105,10 +106,6 @@ def getDetails(usrStr, queNum):
         except Exception as er:
             print(er)
     if queNum == "third" or queNum == 3:
-        try:
-            d["idv"] = re.search("[0-9]+", usrStr).group()
-        except:
-            d["idv"] = "NA"
         try:     
             d["side car"] = re.search("SIDE CAR", usrStr).group()
             d["side car"] = "Yes"
@@ -124,6 +121,16 @@ def getDetails(usrStr, queNum):
             d["cng"] = "Yes"
         except:
             d["cng"] = "NA"    
+
+    if queNum == "fourth" or queNum == 4:
+
+        l = usrStr.split(" ")
+        try:
+            idv = [int(i) for i in l if re.search("[0-9]+", i)]
+            d["idv"] = min(idv)
+            d["total idv"] = max(idv)
+        except:
+            d["idv"] = "NA"        
     print("Str", usrStr)
     print ("Detailssssss", d)        
     return d
@@ -140,7 +147,7 @@ def userSays():
         print(list(bikeDetails.keys())[bikeQues])
         res = list(bikeDetails.keys())[bikeQues]
         bikeQues += 1
-    elif bikeQues < 4 and bikeQues >= 0:
+    elif bikeQues < 5 and bikeQues >= 0:
         bikeDetails[list(bikeDetails.keys())[bikeQues-1]] = getDetails(data["usrSays"].upper(), bikeQues)
         try:
             res = list(bikeDetails.keys())[bikeQues]
