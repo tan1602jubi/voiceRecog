@@ -17,7 +17,7 @@ bikeDetails = {"Make Model Variant & Vehicle Registration Number & year of mfg":
 bikeQues = 0
 
 @app.route('/voiceRecog', methods=['GET', 'POST'])
-def home():
+def home1():
     global bikeQues
     bikeQues = -1
     return render_template('index.html', name='index')
