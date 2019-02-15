@@ -146,7 +146,7 @@ def userSays():
             res = list(bikeDetails.keys())[bikeQues]
             bikeQues += 1
         except Exception as er:
-            table = '<p>Here is what extracted..!</p><br><table class="table table-dark"><thead><tr><th scope="col">Fields</th> <th scope="col">Values</th></tr></thead><tbody>'
+            table = '<p>Here is what extracted..!</p><br><table class="table table-dark"><thead><tr><th scope="col">#</th><th scope="col">Fields</th> <th scope="col">Values</th></tr></thead><tbody>'
             tableContent = {}
             for i in bikeDetails:
                 for j in bikeDetails[i]:
