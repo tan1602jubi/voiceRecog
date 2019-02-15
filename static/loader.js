@@ -122,7 +122,7 @@
             };
             window.passphraseMiddleware="YGUYGgyjgblgUGIYGIGkwhbiuashbo98u9283hr9h24rqIYGI932kbidbiadsYE"
             window.voiceEnable=true;
-            window.chatPersistence = true;
+            window.chatPersistence = false;
                 window.mainpage =   '<section class="sec_main" id="jubisecmain" style="display: none;"></section>';
                 window.leftpanel =  '<div class="leftPage" id="leftpanel"><div class="leftpanelBg"><div class="leftpage_opacity">&nbsp</div></div><div class="leftContent"><div class="logo"><img src="https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/logo.png" class="img-fluid" ></div><h2>Ask me anything.</h2></div></div>';   
                 window.rightpanel = '<div class="rightPage" id="rightpanel"><section class="jubichatbot" id="jubichatbot" style="display: none;"></section></div>';
