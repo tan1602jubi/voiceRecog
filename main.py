@@ -151,12 +151,13 @@ def userSays():
         bikeQues = -1 
         print(bikeDetails)    
     return jsonify(res=res) 
-  
+
 @app.route("/test", methods=['POST'])
 def tests():
     print(request)
-    print(request.data)
-    return 200
+    print(request.get_json())
+
+    return jsonify(request.get_json(), 200)
 
 if __name__ == '__main__':
 
