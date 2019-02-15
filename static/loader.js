@@ -216,20 +216,20 @@
                                 '</button>'+
                                 
                             '</div>'+
-                            '<div class="uploadbox">' +
-                                '<label>' +
-                                    '<div class="inputfile">' +
-                                        '<img src="https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/attachment.png" class="img-responsive">' +
-                                        '<input class="jubi-file-upload" type="file" name="fileName" >' +
-                                    '</div>' +
-                                    '<div class="button-section" style="display:none">' +
-                                        '<button type="submit">Submit</button>' +
-                                    '</div>' +
-                                '</label>'+
-                            '</div>' +
-                            '<div class="keyboard-icon" id="keyboard-icon" >'+
-                                '<i class="fa fa-keyboard-o" aria-hidden="true"></i>'+
-                            '</div>'+        
+                            // '<div class="uploadbox">' +
+                            //     '<label>' +
+                            //         '<div class="inputfile">' +
+                            //             '<img src="https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/attachment.png" class="img-responsive">' +
+                            //             '<input class="jubi-file-upload" type="file" name="fileName" >' +
+                            //         '</div>' +
+                            //         '<div class="button-section" style="display:none">' +
+                            //             '<button type="submit">Submit</button>' +
+                            //         '</div>' +
+                            //     '</label>'+
+                            // '</div>' +
+                            // '<div class="keyboard-icon" id="keyboard-icon" >'+
+                            //     '<i class="fa fa-keyboard-o" aria-hidden="true"></i>'+
+                            // '</div>'+        
                         '</div>'+
                         '<div class="jubi-new_copyright" id="jubi-new_copyright">' +
                             'Powered by <a href="https://www.jubi.ai/" target="_blank">jubi.ai</a>' +
