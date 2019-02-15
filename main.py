@@ -173,7 +173,7 @@ def firstPost():
     model["tags"]["details"] = details
     model["stage"] = "second"
     print(model, "modellllllllllllllllllllllllll")
-    return jsonify(str(model), 200)
+    return jsonify(model, 200)
 
 @app.route("/secondPost", methods=['POST'])
 def secondPost():
