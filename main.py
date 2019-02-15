@@ -112,7 +112,7 @@ def getDetails(usrStr, queNum):
             d["cng"] = "Yes"
         except:
             d["cng"] = "NA"    
-https://www.google.com/search?q=ch&oq=ch&aqs=chrome..69i57j69i60j69i61l2j69i59j69i60.388j0j9&sourceid=chrome&ie=UTF-8
+            
     print("Str", usrStr)
     print ("Detailssssss", d)        
     return d
