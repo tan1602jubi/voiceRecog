@@ -157,7 +157,7 @@ def tests():
     print(request)
     print(request.get_json())
 
-    return jsonify(request.get_json(), 200)
+    return jsonify(str(request.get_json()), 200)
 
 if __name__ == '__main__':
 
