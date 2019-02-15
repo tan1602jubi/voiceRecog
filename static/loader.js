@@ -116,7 +116,7 @@
                     images:{"logo":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/logo.png","sendIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/icon_send.png","sendIconActive":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/iconRed_send.png","loaderBotChat":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/response-loading.gif","userIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/user.png","botIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/boticon.png","logoIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/logo-icon.png","voiceIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/voice.png","closeWebView":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/closeWebView.png","attachment":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/attachment.png","permissionIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/parrot_loader.gif","muteIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/mute.png","unmuteIcon":"https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/unmute.png"},
                     text:{
                         closeMessage:'',
-                        headMessage:'Ask me anything.'
+                        headMessage:'Voice Form Filling.'
                     }
                 }
             };
@@ -124,7 +124,7 @@
             window.voiceEnable=true;
             window.chatPersistence = false;
                 window.mainpage =   '<section class="sec_main" id="jubisecmain" style="display: none;"></section>';
-                window.leftpanel =  '<div class="leftPage" id="leftpanel"><div class="leftpanelBg"><div class="leftpage_opacity">&nbsp</div></div><div class="leftContent"><div class="logo"><img src="https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/logo.png" class="img-fluid" ></div><h2>Ask me anything.</h2></div></div>';   
+                window.leftpanel =  '<div class="leftPage" id="leftpanel"><div class="leftpanelBg"><div class="leftpage_opacity">&nbsp</div></div><div class="leftContent"><div class="logo"><img src="https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/logo.png" class="img-fluid" ></div><h2>Voice Form Filling.</h2></div></div>';   
                 window.rightpanel = '<div class="rightPage" id="rightpanel"><section class="jubichatbot" id="jubichatbot" style="display: none;"></section></div>';
                 window.templateOpenView = '<section class="pm-sec_calliframe" id="pm-secIframe"  style="display:none">'+
                 '<section class="pm-sec_scroll2 pm-sec_openview" id="pm-mainSec">' + 
@@ -135,7 +135,7 @@
                                 '<img src="https://parramato.s3.ap-south-1.amazonaws.com/voiceRecog_115408218639658002501/dev/images/logo-icon.png" class="img-responsive"><span class="pm-headOnline" >&nbsp;</span>'+
                             '</h3>'+
                         '</div>'+
-                        '<p>Ask me anything.</p>'+
+                        '<p>Voice Form Filling.</p>'+
                     '</section>'+
 
                     '<section class="pm-sec_chatbody" id="pm-data" >'+
