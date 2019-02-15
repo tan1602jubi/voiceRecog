@@ -1117,7 +1117,7 @@
    .pm-chatHeader { width: 100%; }
    .leftpanelBg img {width: 170%; max-width: 170%;}
   }
-  @media (max-width: 767px){
+  /* @media (max-width: 767px){ */
    .pm-secCloseMsg { bottom: 106px; }
      body .container { width: 100%; padding: 0 5px }
     .pm-secMain { padding: 0 38px 50px;}  
@@ -1185,7 +1185,7 @@
    top: 0px; }
   
   
-  }
+  /* } */
   @media (max-width:560px){ 
     .pm-leftUserimg { width: 28px;float: left; height: 28px; }
     .pm-rightUserimg { width: 30px; height: 30px;top:0;bottom:auto; }
@@ -1413,7 +1413,7 @@
   
   
   
-  @media (max-width: 767px){
+  /* @media (max-width: 767px){ */
    .leftPage { width: 100%; height: auto;}
    .rightPage { width: 100%; }
    .leftContent h2 {font-size: 27px;padding: 0 0px;}
@@ -1421,5 +1421,5 @@
    .bxCheckOPtion ul li a, .bxCheckOPtionPersist ul li a { font-size: 13px; }
    .leftPage { display: none; }
    .showEditIframe { height: 91%; top: 69px;}
-  }
+  /* } */
   
