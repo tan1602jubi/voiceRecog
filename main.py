@@ -169,6 +169,7 @@ def firstPost():
     model = request.get_json()
     print(model)
     details = getDetails(model["data"].upper(), model["stage"])
+    print details
     model["tags"]["details"] = details
     model["stage"] = "second"
     return jsonify(str(model), 200)
