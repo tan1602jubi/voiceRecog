@@ -112,7 +112,7 @@ def getDetails(usrStr, queNum):
             d["cng"] = "Yes"
         except:
             d["cng"] = "NA"    
-
+https://www.google.com/search?q=ch&oq=ch&aqs=chrome..69i57j69i60j69i61l2j69i59j69i60.388j0j9&sourceid=chrome&ie=UTF-8
     print("Str", usrStr)
     print ("Detailssssss", d)        
     return d
@@ -155,7 +155,7 @@ def userSays():
 
 if __name__ == '__main__':
 
-    #port = int(os.environ.get("PORT", 7333))    
-    #app.run(host='0.0.0.0', port=port, threaded = True)
+    port = int(os.environ.get("PORT", 5000))    
+    app.run(host='0.0.0.0', port=port, threaded = True)
     #app.run_server(host='0.0.0.0', port=port,threaded = True)
-    app.run(host='0.0.0.0')
+    #app.run(host='0.0.0.0')
