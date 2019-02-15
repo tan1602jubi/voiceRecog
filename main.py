@@ -13,8 +13,8 @@ app = Flask(__name__)
 
 bikeDetails = {"Please help me with the Make,Model and Variant of your bike, Your bike registration number and year of manufacture. (You can say something like Bajaj Pulsar 180cc MH03CQ9771 2016)": {},
                 "Next I would need the color of the two wheeler and year of registration (You can say something like Black 2017)": {},
-                "We are almost done, I would like to know if there are any electrical accessories, side car, LPG/CNG fitted in your two wheeler.Kindly only spell out those which are present and if none of them are relevant just say none. (Eg: side car, lpg and cng or None)": {},
-                "Lastly I would want to know the base IDV and Total IDV(You can say something like 45000 and 53200":{}}   
+                "We are almost done, I would like to know if there are any electrical accessories, side car, LPG/CNG fitted in your two wheeler.Kindly only spell out those which are present and if none of them are relevant just say none. (Eg: side car, lpg, cng and electrical accessories or None)": {},
+                "Lastly I would want to know the base IDV and Total IDV(You can say something like 45000, 53200":{}}   
 
 bikeQues = 0
 
@@ -120,7 +120,13 @@ def getDetails(usrStr, queNum):
             d["cng"] = re.search("CNG", usrStr).group()
             d["cng"] = "Yes"
         except:
-            d["cng"] = "NA"    
+            d["cng"] = "NA" 
+
+        try:
+            d["electrical accessories"] = re.search("LPG", usrStr).group()      
+            d["electrical accessories"] = "Yes"
+        except:
+            d["electrical accessories"] = "NA"    
 
     if queNum == "fourth" or queNum == 4:
 
