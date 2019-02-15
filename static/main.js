@@ -10,6 +10,13 @@ function listen(){
     }
 }
 
+function runScript(e) {
+  //See notes about 'which' and 'key'
+  if (e.keyCode == 13) {
+    sendMessage()
+  }
+}
+
 function sendMessage(){
 
   let speech = document.getElementById("inputText").value
@@ -40,3 +47,4 @@ function sendMessage(){
           }
       });
 }
+

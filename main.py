@@ -93,16 +93,25 @@ def getDetails(usrStr, queNum):
         except Exception as er:
             print(er)
     if queNum == 3:
-        d["idv"] = re.search("[0-9]+", usrStr).group()
         try:
+            d["idv"] = re.search("[0-9]+", usrStr).group()
+        except:
+            d["idv"] = "NA"
+        try:     
             d["side car"] = re.search("SIDE CAR", usrStr).group()
+            d["side car"] = "Yes"
+        except:
+            d["side car"] = "NA"
+        try:    
             d["lpg"] = re.search("LPG", usrStr).group()
+            d["lpg"] = "Yes"
+        except:
+            d["lpg"] = "NA"
+        try:        
             d["cng"] = re.search("CNG", usrStr).group()
-        except Exception as er:
-            d["side car"] = "No"
-            d["lpg"] = "No"
-            d["cng"] = "No"
-            print(er)
+            d["cng"] = "Yes"
+        except:
+            d["cng"] = "NA"    
 
     print("Str", usrStr)
     print ("Detailssssss", d)        
@@ -140,7 +149,7 @@ def userSays():
             res = table 
             bikeQues = -1      
     else:
-        bikeQues = 0 
+        bikeQues = -1 
         print(bikeDetails)    
     return jsonify(res=res)   
 

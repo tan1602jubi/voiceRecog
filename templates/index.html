@@ -190,7 +190,7 @@
 								<div class="input-group-append">
 									<span class="input-group-text attach_btn" onclick="listen()"><i class="fas fa-microphone"></i></span>
 								</div>
-								<textarea id="inputText" class="form-control type_msg" placeholder="Type your message..."></textarea>
+								<textarea id="inputText" class="form-control type_msg" placeholder="Type your message..." onkeypress="return runScript(event)"></textarea>
 								<div class="input-group-append">
 									<span class="input-group-text send_btn"  onclick="sendMessage()"><i class="fas fa-location-arrow"></i></span>
 								</div>
