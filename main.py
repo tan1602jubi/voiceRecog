@@ -169,9 +169,10 @@ def firstPost():
     model = request.get_json()
     print(model)
     details = getDetails(model["data"].upper(), model["stage"])
-    print(details)
+    model["tags"]["details"] = {}
     model["tags"]["details"] = details
     model["stage"] = "second"
+    print(model, "modellllllllllllllllllllllllll")
     return jsonify(str(model), 200)
 
 @app.route("/secondPost", methods=['POST'])
