@@ -14,6 +14,7 @@ app = Flask(__name__)
 bikeDetails = {"Make Model Variant & Vehicle Registration Number & year of mfg": {},
                 "color, & date of registration": {},
                 "idv,electrical accessories,side car,cng/lpg,total idv": {},}   
+
 bikeQues = 0
 
 @app.route('/voiceRecog', methods=['GET', 'POST'])
@@ -34,7 +35,7 @@ def getDetails(usrStr, queNum):
     tw_df = pd.read_csv("./static/tw_Desc.csv")
     place_df = pd.read_csv("./static/place.csv")
     colors = ['ALUMINUM', 'BEIGE', 'BLACK', 'BLUE', 'BROWN', 'BRONZE', 'CLARET', 'COPPER', 'CREAM', 'GOLD', 'GRAY', 'GREEN', 'MAROON', 'METALLIC', 'NAVY', 'ORANGE', 'PINK', 'PURPLE', 'RED', 'ROSE', 'RUST', 'SILVER', 'TAN', 'TURQUOISE', 'WHITE', 'YELLOW']
-    if queNum == "first":
+    if queNum == "first" or queNum == 1:
         r = "[A-Z]{2}[0-9]{1,2}(?:[A-Z])?(?:[A-Z]*)?[0-9]{4}" 
         
         f = open("./static/two_wheel.json")
@@ -91,14 +92,14 @@ def getDetails(usrStr, queNum):
             d["Place of Registration"] = "---"
             print(er)    
 
-    if queNum == "second":
+    if queNum == "second" or queNum == 2:
         try:
             d["color"] = [i for i in colors if re.search(i, usrStr)][0]
             usrStr = usrStr.replace(d["color"], "")
             d["year of registration"] = re.search("[0-9]{4}", usrStr).group()
         except Exception as er:
             print(er)
-    if queNum == "third":
+    if queNum == "third" or queNum == 3:
         try:
             d["idv"] = re.search("[0-9]+", usrStr).group()
         except:
