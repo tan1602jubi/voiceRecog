@@ -17,7 +17,6 @@ bikeDetails = {"Make Model Variant & Vehicle Registration Number & year of mfg":
 bikeQues = 0
 @app.route('/', methods=['GET', 'POST'])
 def home():
-    f = open("./static/two_wheel.json")
     global bikeQues
     bikeQues = -1
     return render_template('index.html', name='index')
@@ -25,8 +24,8 @@ def home():
 def getDetails(usrStr, queNum):
     d = {}
     print(usrStr, "------", queNum)
-    tw_df = pd.ExcelFile("./static/twDesc.xlsx").parse("Sheet1")
-    place_df = pd.ExcelFile("./static/place.xlsx").parse("Sheet1")
+    tw_df = pd.ExcelFile("./static/tw_Desc.csv").parse("Sheet1")
+    place_df = pd.ExcelFile("./static/place.csv").parse("Sheet1")
     colors = ['ALUMINUM', 'BEIGE', 'BLACK', 'BLUE', 'BROWN', 'BRONZE', 'CLARET', 'COPPER', 'CREAM', 'GOLD', 'GRAY', 'GREEN', 'MAROON', 'METALLIC', 'NAVY', 'ORANGE', 'PINK', 'PURPLE', 'RED', 'ROSE', 'RUST', 'SILVER', 'TAN', 'TURQUOISE', 'WHITE', 'YELLOW']
     if queNum == "first":
         r = "[A-Z]{2}[0-9]{1,2}(?:[A-Z])?(?:[A-Z]*)?[0-9]{4}" 
