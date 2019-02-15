@@ -123,7 +123,7 @@ def getDetails(usrStr, queNum):
             d["cng"] = "NA" 
 
         try:
-            d["electrical accessories"] = re.search("electrical", usrStr).group()      
+            d["electrical accessories"] = re.search("ELECTRICAL", usrStr).group()      
             d["electrical accessories"] = "Yes"
         except:
             d["electrical accessories"] = "NA"    
