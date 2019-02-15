@@ -33,7 +33,7 @@ function sendMessage(){
         $.ajax({
           type: "POST",
           headers: "application/json",
-          url: "/usrSays",
+          url: "/voiceFormFilling/usrSays",
           data: {"usrSays": speech},
           success: function(data) {
           console.log(JSON.stringify(data))
