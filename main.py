@@ -29,6 +29,11 @@ def home():
     bikeQues = -1
     return render_template('index2.html', name='index2')
 
+def merge_two_dicts(x, y):
+    z = x.copy()   # start with x's keys and values
+    z.update(y)    # modifies z with y's keys and values & returns None
+    return z
+
 def getDetails(usrStr, queNum):
     d = {}
     print(usrStr, "------", queNum)
@@ -161,37 +166,48 @@ def userSays():
 
 @app.route("/firstPost", methods=['POST'])
 def firstPost():
-    print(request)
     model = request.get_json()
-
-    details = getDetails(model["data"], bikeQues)
-    model["tags"]["details"] = {}
-    model["tags"]["details"] = getDetails(model["data"].upper(), model["stage"])
+    details = getDetails(model["data"].upper(), model["stage"])
+    model["tags"]["details"] = details
     model["stage"] = "second"
     return jsonify(str(model), 200)
 
 @app.route("/secondPost", methods=['POST'])
 def secondPost():
-    print(request)
     model = request.get_json()
 
-    details = getDetails(model["data"], bikeQues)
-    model["tags"]["details"] = {}
-    model["tags"]["details"] = getDetails(model["data"], model["stage"])
+    details = getDetails(model["data"].upper(), model["stage"])
+    details = merge_two_dicts(details, model["tags"]["details"])
+    model["tags"]["details"] = details
     model["stage"] = "third"
     return jsonify(str(model), 200)
 
 @app.route("/thirdPost", methods=['POST'])
 def thirdPost():
-    print(request)
     model = request.get_json()
 
-    details = getDetails(model["data"], bikeQues)
-    model["tags"]["details"] = {}
-    model["tags"]["details"] = getDetails(model["data"], model["stage"])
+    details = getDetails(model["data"].upper(), model["stage"])
+    details = merge_two_dicts(details, model["tags"]["details"])
+    model["tags"]["details"] = details
     model["stage"] = "final"
     return jsonify(str(model), 200)   
 
+@app.route("/finalPre", methods=['POST'])
+def finalPre():
+    model = request.get_json()
+    print(model["tags"]["details"])
+    alldetails = ""
+    for i in model["tags"]["details"]:
+        alldetails += "<b>" + i + "</b>: "+ model["tags"]["model"][i] + "<br>"
+
+    model["reply"]={"type" : "text",
+                    "text" : alldetails,}    
+
+    details = getDetails(model["data"].upper(), model["stage"])
+    details = merge_two_dicts(details, model["tags"]["details"])
+    model["tags"]["details"] = details
+    model["stage"] = "final"
+    return jsonify(str(model), 200)
 
 # @app.route("/firstPre", methods=['POST'])
 # def firstPre():
