@@ -18,15 +18,14 @@ function runScript(e) {
 }
 
 function sendMessage(){
-
+ //   <div class="img_cont_msg">\
+      // <img src="./static/user.gif" class="rounded-circle user_img_msg">\
+      //   </div>\
   let speech = document.getElementById("inputText").value
   $('#inputText').val("")
   let d = new Date()
       $('#chatArea').append('<div class="d-flex justify-content-end mb-4">\
            <div class="msg_cotainer_send"> '+ speech +' <span class="msg_time_send">'+d.toLocaleTimeString()+', Today</span></div>\
-      //   <div class="img_cont_msg">\
-      // <img src="./static/user.gif" class="rounded-circle user_img_msg">\
-      //   </div>\
       </div>')
       let d1 = new Date()
 
