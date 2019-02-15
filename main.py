@@ -166,7 +166,7 @@ def firstPost():
 
     details = getDetails(model["data"], bikeQues)
     model["tags"]["details"] = {}
-    model["tags"]["details"] = getDetails(model["data"], model["stage"])
+    model["tags"]["details"] = getDetails(model["data"].upper(), model["stage"])
     model["stage"] = "second"
     return jsonify(str(model), 200)
 
