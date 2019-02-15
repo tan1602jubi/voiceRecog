@@ -176,7 +176,7 @@ def firstPost():
 @app.route("/secondPost", methods=['POST'])
 def secondPost():
     model = request.get_json()
-    print(model)
+    print(model, "modelllllllllllllllllllllllllllllllll")
     details = getDetails(model["data"].upper(), model["stage"])
     details = merge_two_dicts(details, model["tags"]["details"])
     model["tags"]["details"] = details
