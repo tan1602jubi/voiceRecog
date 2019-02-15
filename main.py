@@ -150,13 +150,14 @@ def userSays():
     else:
         bikeQues = -1 
         print(bikeDetails)    
-    return jsonify(res=res)   
+    return jsonify(res=res) 
+  
 @app.route("/test", methods=['POST'])
-def userSays():
+def tests():
     print(request)
     print(request.data)
     return 200
-    
+
 if __name__ == '__main__':
 
     port = int(os.environ.get("PORT", 5000))    
