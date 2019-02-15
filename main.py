@@ -112,7 +112,7 @@ def getDetails(usrStr, queNum):
             d["cng"] = "Yes"
         except:
             d["cng"] = "NA"    
-            
+
     print("Str", usrStr)
     print ("Detailssssss", d)        
     return d
@@ -121,6 +121,7 @@ def getDetails(usrStr, queNum):
 def userSays():
     global bikeDetails, bikeQues
     data = dict(request.form)
+    print(data)
     res = "How can I help you..!"
     print(data)
     if data["usrSays"] == "bike details":
@@ -150,8 +151,9 @@ def userSays():
             bikeQues = -1      
     else:
         bikeQues = -1 
-        print(bikeDetails)    
-    return jsonify(res=res)   
+        print(bikeDetails)
+    return make_response(jsonify(res), 200)        
+    # return jsonify(res=res)   
 
 if __name__ == '__main__':
 
