@@ -196,7 +196,7 @@ def secondPost():
     details = merge_two_dicts(details, model["tags"]["details"])
     model["tags"]["details"] = details
     model["stage"] = "third"
-    return jsonify(str(model))
+    return jsonify(model)
 
 @app.route("/thirdPost", methods=['POST'])
 def thirdPost():
@@ -206,7 +206,7 @@ def thirdPost():
     details = merge_two_dicts(details, model["tags"]["details"])
     model["tags"]["details"] = details
     model["stage"] = "final"
-    return jsonify(str(model))   
+    return jsonify(model)   
 
 @app.route("/finalPre", methods=['POST'])
 def finalPre():
@@ -223,7 +223,7 @@ def finalPre():
     details = merge_two_dicts(details, model["tags"]["details"])
     model["tags"]["details"] = details
     model["stage"] = "final"
-    return jsonify(str(model))
+    return jsonify(model)
 
 # @app.route("/firstPre", methods=['POST'])
 # def firstPre():
